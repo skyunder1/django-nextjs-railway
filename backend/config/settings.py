@@ -10,6 +10,7 @@ DEBUG = True  # Enable debug for now
 ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
+    'django.contrib.contenttypes',
     'rest_framework',
     'corsheaders',
     'api',
